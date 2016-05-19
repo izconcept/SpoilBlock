@@ -4,3 +4,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     chrome.tabs.sendMessage(activeTab.id, {"message": "clicked_browser_action"});
   });
 });
+myFunction() {
+	ALert("Hello");
+}
